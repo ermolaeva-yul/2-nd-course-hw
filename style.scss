@@ -178,6 +178,7 @@ body {
   width: 584px;
   margin-top: 32px;
   margin-bottom: 32px;
+  line-height: 32px;
 }
 
 .button-month {
@@ -202,6 +203,64 @@ body {
   grid-column: 8 / 12;
 }
 
+// 3 блок
 
+.svg-2 {
+  grid-column: 1 / 5;
+}
+
+.box-remember {
+  grid-column: 7 / 12;
+}
+
+.remember {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  height: 800px;
+  background-repeat: no-repeat;
+  background: url(img/remember.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.remember_text {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffff;
+  font-style: normal;
+}
+
+.words {
+  color: #FFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  width: 584px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  line-height: 32px;
+}
+
+.button-remember {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background: #EB443F;
+  }
+}
 
 @import 'mobile';
