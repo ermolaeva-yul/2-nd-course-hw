@@ -85,7 +85,38 @@
     width: 344px;
     height: 236px;
     padding-left: 16px;
-    padding-right: 15px;
+    padding-right: 16px;
     margin-top: 32px;
+  }
+  .remember {
+    display: flex;
+    flex-direction: column-reverse;
+    background: url(img/seasonsmob.jpg);
+    height: 654px;
+  }
+  .svg_image2 {
+    width: 344px;
+    height: 236px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 90px;
+  }
+  .box-remember {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+  }
+  .remember_text {
+    font-size: 32px;
+    text-align: center;
+  }
+  .words {
+    font-weight: 300;
+    font-size: 14px;
+    width: 343px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
   }
 }/*# sourceMappingURL=mobile.css.map */
