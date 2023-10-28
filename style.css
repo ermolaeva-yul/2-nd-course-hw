@@ -126,6 +126,63 @@ body {
   padding-top: 236px;
 }
 
+.seasons {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  height: 800px;
+  background-repeat: no-repeat;
+  background: url(img/seasons.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.box-month {
+  grid-column: 1/6;
+}
+
+.title_text {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  font-style: normal;
+}
+
+.month {
+  color: #FFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  width: 584px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.button-month {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-month:hover {
+  background: #EB443F;
+}
+
+.svg {
+  grid-column: 8/12;
+}
+
 @media (max-width: 375px) {
   .center {
     padding-left: 16px;
@@ -181,5 +238,39 @@ body {
   }
   .games__item:hover {
     animation: none;
+  }
+  .games__item_3 {
+    background-position: center;
+  }
+  .seasons {
+    display: flex;
+    flex-direction: column;
+    background: url(img/seasonsmob.jpg);
+    height: 654px;
+  }
+  .box-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+  }
+  .title_text {
+    font-size: 32px;
+    text-align: center;
+  }
+  .month {
+    font-weight: 300;
+    font-size: 14px;
+    width: 343px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .svg_image {
+    width: 344px;
+    height: 236px;
+    padding-left: 16px;
+    padding-right: 15px;
+    margin-top: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
