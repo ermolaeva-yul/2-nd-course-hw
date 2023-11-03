@@ -12,3 +12,20 @@ function getSeason() {
         return console.log('Вы ввели неправильное значение');
     }
 }
+
+function rememberWords() {
+    let fruit = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruit = fruit.sort(() => Math.random() - 0.5);
+    alert(fruit);
+
+    let oneFruit = prompt('Какое слово было первым?');
+    let lastFruit = prompt('А какое слово было последним?');
+
+    if (oneFruit === fruit[0] && lastFruit === fruit[fruit.length - 1]) {
+        alert('Так держать! Оба элемента верны!');
+    } else if (oneFruit === fruit[0] || lastFruit === fruit[fruit.length - 1] ) {
+        alert('Вы были близки к победе!');
+    } else {
+        alert('Ответ не верный!');
+    }
+}

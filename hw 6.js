@@ -114,7 +114,7 @@ function getQuaNumbers(arr) {
 
     return arr.map((num) => num * num);
 }
-console.log(arr);
+console.log(getQuaNumbers(arr));
 
 
 //Задание 12
