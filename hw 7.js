@@ -36,13 +36,12 @@ console.log(Math.max(...number));
 
 //Задание 5
 
-function getRandomInt(minValue, maxValue) {
+function getRandomInt() {
 
-    return Math.round(Math.random()*maxValue);
+    return Math.floor(Math.random() * 10) + 1;
 }
-                                       
-console.log(getRandomInt(0, 10));
 
+console.log(getRandomInt());
 
 //Задание 6
 
